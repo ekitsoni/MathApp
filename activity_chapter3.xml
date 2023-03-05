@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".chapter3">
+
+    <ImageView
+        android:layout_width="417dp"
+        android:layout_height="731dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="#046A00"
+        android:text="Κεφάλαιο 3: Γεωμετρία"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Μαθήματα ενότητας\n •	Είδη γωνιών\n •	Είδη τριγώνων ως προς τις γωνίες\n • Είδη τριγώνων ως προς τις πλευρές\n • Καθετότητα - όψη τριγώνου¬"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ImageView
+                android:layout_width="375dp"
+                android:layout_height="207dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch31" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="H γωνία ονοματίζεται με τρία κεφαλαία γράμματα, όπου το γράμμα της κορυφής μπαίνει στη μέση (ΑΟΒ ή ΒΟΑ), βάζοντας από πάνω του το σύμβολο της γωνίας (^)."               android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="372dp"
+                android:layout_height="192dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch32" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Τα είδη των γωνιών είναι η  οξεία, η  ορθή  και  η  αμβλεία. Η ορθή γωνία είναι 90 μοίρες, η οξεία γωνία είναι μικρότερη της ορθής και η αμβλεία μεγαλύτερη της ορθής.\n Μονάδα μέτρησης των γωνιών είναι η γωνία μιας μοίρας, δηλαδή η μία από τις 90 ίσες γωνίες στις οποίες χωρίζεται η ορθή γωνία: 1 ορθή = 90 μοίρες και 1 μοίρα = 1/90 της ορθής.\n Το μέγεθος της γωνίας εξαρτάται από το άνοιγμα των πλευρών της και όχι από το μήκος των πλευρών της. Για να μετρήσουμε μία γωνία χρησιμοποιούμε το μοιρογνωμόνιο.  "
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="375dp"
+                android:layout_height="207dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch33" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch34" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch35" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch36" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch3" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch38" />
+
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch39" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch310" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch311" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch312" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch313" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch314" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch317" />
+
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch316" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch315" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/test3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#046A00"
+                android:background="@drawable/btn_bg"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:text="Διαγώνισμα" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

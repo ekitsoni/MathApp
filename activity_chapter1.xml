@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".chapter1">
+
+    <ImageView
+        android:layout_width="417dp"
+        android:layout_height="731dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="#046A00"
+        android:text="Κεφάλαιο 1: Αριθμοί και Πράξεις"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Μαθήματα ενότητας\n •	Φυσικοί αριθμοί\n •	Δεκαδικοί αριθμοί\n •	Μετατροπή δεκαδικών σε κλάσματα κι αντίστροφα\n •	Σύγκριση φυσικών ή δεκαδικών αριθμών"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ImageView
+                android:layout_width="375dp"
+                android:layout_height="207dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch11" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Φυσικοί αριθμοί\nΛέγονται οι αριθμοί που βρίσκονται καθημερινά στη φύση, γύρω μας.\n•	1 τραπέζι, 4 μπάλες, 35 άτομα, 130 κιβώτια, 1.000 χιλιόμετρα κλπ.\n\nΕκτός από πλήθος οι αριθμοί αυτοί μπορούν να δηλώσουν και τη θέση – σειρά που μπορεί να βρίσκεται κάποιος.\n•	στη σειρά είμαι 5ος, κάθομαι στο 7ο θρανίο, πηγαίνω στο 8ο Δ.Σ. κλπ.\n\nΟι φυσικοί  αριθμοί που αρχίζουν από το 0 και φτάνουν στο ...άπειρο (0,1,2,3,4,5,6...)"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <VideoView
+                    android:id="@+id/videoView"
+                    android:layout_width="374dp"
+                    android:layout_height="300dp"
+                    android:layout_gravity="center" />
+            </FrameLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="372dp"
+                android:layout_height="192dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch12" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Όλοι οι φυσικοί αριθμοί σχηματίζονται από 10 ψηφία\n•	(0,1,2,3,4,5,6,7,8,9)\nΚάθε φυσικός αριθμός έχει έναν επόμενο και έναν προηγούμενο φυσικό αριθμό, εκτός από το 0 που έχει μόνο επόμενο, το 1.\n•	17 + 1 = 18\nΣτους αριθμούς που έχουν περισσότερα από τρία ψηφία, για λόγους ευκολίας στην ανάγνωση, χωρίζουμε με μία τελεία κάθε τριάδα ψηφίων, αρχίζοντας από τις μονάδες (δεξιά).\n•	Για παράδειγμα ο αριθμός 4578965 χρησιμοποιώντας τις τελείες διαχωρισμού θα γραφεί ως εξής: 4.578.965"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="375dp"
+                android:layout_height="207dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch13" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch14" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Δεκαδικοί αριθμοί\nΌταν στην καθημερινή ζωή θέλουμε να εκφράσουμε ένα μέγεθος με ακρίβεια, τότε χρησιμοποιούμε τους δεκαδικούς αριθμούς. Οι αριθμοί αυτοί περιέχουν το ακέραιο μέρος ενός αριθμού και το δεκαδικό μέρος του. Ο χωρισμός ακέραιου και δεκαδικού μέρους γίνεται με την υποδιαστολή (κόμμα).\nπ.χ. 1 λίτρο βενζίνης κοστίζει 1,568 ευρώ\n•	Στο ακέραιο μέρος, τα ψηφία ανάλογα με τη θέση τους μπορεί να δηλώνουν Μονάδες (Μ), Δεκάδες (Δ), Εκατοντάδες (Ε) \n•	Στο δεκαδικό μέρος τα ψηφία μπορεί να δηλώνουν δέκατα (δεκ.), εκατοστά (εκ.), χιλιοστά (χιλ.)\n•	Η αξία ενός δεκαδικού αριθμού δεν αλλάζει αν προσθέσουμε ή διαγράψουμε μηδενικά από το τέλος του δεκαδικού αριθμού\nΠροσοχή! Δεν διαγράφουμε ποτέ μηδενικά από το τέλος του ακεραίου αριθμού."
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch15" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch16" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Μετατροπή δεκαδικών σε κλάσματα και αντίστροφα\nΟι δεκαδικοί αριθμοί μπορούν να μετατραπούν σε δεκαδικά κλάσματα και, αντίστροφα, τα δεκαδικά κλάσματα να μετατραπούν σε δεκαδικούς αριθμούς.\nΓια να μετατρέψουμε ένα δεκαδικό αριθμό  σε κλάσμα:\n•	Γράφουμε ολόκληρο τον αριθμό, χωρίς την υποδιαστολή, στη θέση του αριθμητή.\n•	Στη θέση του παρονομαστή γράφουμε τον αριθμό 1, με τόσα μηδενικά όσα ήταν τα δεκαδικά ψηφία του αριθμού."
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch17" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Για να μετατρέψουμε ένα δεκαδικό κλάσμα σε δεκαδικό αριθμό:\n•	Γράφουμε μόνο τον αριθμητή του.\n•	Χωρίζουμε με υποδιαστολή, από τα δεξιά προς τ’ αριστερά, τόσα δεκαδικά ψηφία όσα μηδενικά έχει ο παρονομαστής του."
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch18" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch19" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Σύγκριση φυσικών ή δεκαδικών αριθμών\nΗ σύγκριση δύο αριθμών δείχνει ποιος από τους δύο είναι ο μεγαλύτερος, ποιος είναι ο μικρότερος ή αν είναι ίσοι.Τα σύμβολα που χρησιμοποιώ για εκφράσω το αποτέλεσμα μιας σύγκρισης είναι αυτά που βλέπουμε και στην εικόνα παραπάνω."
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch110" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Αύξουσα διάταξη\nΌταν θέλουμε να διατάξουμε ορισμένους αριθμούς κατά αύξουσα σειρά, τους γράφουμε σε μία γραμμή, αρχίζοντας από τον μικρότερο προς τον μεγαλύτερο."
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="371dp"
+                android:layout_height="111dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch111" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Φθίνουσα Διάταξη\nΌταν θέλουμε να τους διατάξουμε κατά φθίνουσα σειρά, τους γράφου¬με σε μία σειρά, ξεκινώντας από τον μεγαλύτερο και φτάνοντας στον μικρό¬τερο.
+"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="371dp"
+                android:layout_height="111dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch112" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="20dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#046A00"
+                android:background="@drawable/btn_bg"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:text="Διαγώνισμα" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chapter2">
+
+    <ImageView
+        android:layout_width="417dp"
+        android:layout_height="731dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/background2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="30dp"
+        android:background="#046A00"
+        android:text="Κεφάλαιο 2: Εξισώσεις"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Μαθήματα ενότητας\n •	Η έννοια της μεταβλητής\n •	Εξισώσεις στις οποίες ο άγνωστος είναι προσθετέος\n • Εξισώσεις στις οποίες ο άγνωστος είναι μειωτέος ή αφαιρετέος\n •	Εξισώσεις στις οποίες ο άγνωστος είναι παράγοντας γινομένου\n •	Εξισώσεις στις οποίες ο άγνωστος είναι διαιρετέος ή διαιρέτης"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <ImageView
+                android:layout_width="375dp"
+                android:layout_height="207dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch21" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Εξισώσεις\nΜια μεταβλητή είναι ένα γράμμα ή ένα σύμβολο το οποίο χρησιμοποιούμε σε μια αριθμητική παράσταση ή σε ένα πρόβλημα, για να δηλώσουμε έναν αριθμό που είναι άγνωστος και μπορεί να πάρει διάφορες τιμές.\n •	Το πιο συνηθισμένο γράμμα για το συμβολισμό μιας μεταβλητής στα μαθηματικά είναι το «Χ». Αυτό όμως δεν είναι υποχρεωτικό. \n •	Μια αριθμητική παράσταση που περιέχει μια μεταβλητή τη λέμε αλγεβρική παράσταση.\n • Αν μια φράση περιέχει μια από τις λέξεις κάποιος, ένας, μια τιμή, ή κάποια παρόμοια, τότε γράφουμε στη θέση αυτού του μεγέθους μια μεταβλητή.
+"               android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="372dp"
+                android:layout_height="192dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch22" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Εξίσωση ονομάζεται μια ισότητα που περιέχει μια μεταβλητή.\nΗ τιμή που επαληθεύει την εξίσωση λέγεται λύση της εξίσωσης.Οι όροι που βρίσκονται αριστερά του ίσον (=) αποτελούν το πρώτο μέλος (α΄ μέλος) της εξίσωσης και αυτοί που βρίσκονται δεξιά το δεύτερο μέλος (β΄ μέλος)\n Όταν ο άγνωστος της εξίσωσης έχει τη θέση ενός προσθετέου, για να λύσουμε την εξίσωση αφαιρούμε από το άθροισμα τον άλλο προσθετέο.\n Επαλήθευση: βάζοντας στη θέση του Χ  τον αριθμό που βρήκαμε από την αφαίρεση.."
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="375dp"
+                android:layout_height="207dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch23" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch24" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="Εξισώσεις στις οποίες ο άγνωστος είναι μειωτέος ή αφαιρετέος\n Ο μειωτέος και ο αφαιρετέος είναι παράγοντες της αφαίρεσης.\n Μειωτέος είναι ο αριθμός που μειώνεται. Στην κάθετη αφαίρεση είναι ο επάνω αριθμός, ενώ στην οριζόντια ο πρώτος αριθμός.\n Αφαιρετέος είναι ο αριθμός που θα αφαιρεθεί από τον μειωτέο. Στην κάθετη αφαίρεση είναι ο κάτω αριθμός, ενώ στην οριζόντια ο δεύτερος αριθμός.\n Το αποτέλεσμα της αφαίρεσης λέγεται διαφορά."
+                android:textSize="16sp" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch25" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="• Για να λύσουμε μια εξίσωση στην οποία ο άγνωστος είναι παράγοντας γινομένου, διαιρούμε το γινόμενο με τον άλλο παράγοντα.\n• Διαιρέτη βάζω πάντα τον αριθμό που είναι μαζί με το X και διαιρετέο το γινόμενο.
+"
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <ImageView
+                android:layout_width="370dp"
+                android:layout_height="240dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/ch26" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="#FFFFFF"
+                android:ems="10"
+                android:gravity="start|top"
+                android:inputType="textMultiLine"
+                android:paddingLeft="10dp"
+                android:paddingTop="3dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="3dp"
+                android:text="•	Ο διαιρετέος είναι ο αριθμός που θα διαιρεθεί.\n • Ο διαιρέτης είναι ο αριθμός που δείχνει σε πόσα ίσα μέρη θα χωριστεί ο διαιρετέος.\n • Το πηλίκο (το αποτέλεσμα της διαίρεσης) δείχνει πόσο μεγάλο είναι κάθε ένα από τα ίσα μέρη στα οποία χωρίστηκε ο διαιρετέος.\n •	Όταν ο άγνωστος είναι διαιρετέος, για να λύσουμε την εξίσωση πολλαπλασιάζουμε το πηλίκο με τον διαιρέτη."
+                android:textSize="16sp" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/test2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:backgroundTint="#046A00"
+                android:text="Διαγώνισμα" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
